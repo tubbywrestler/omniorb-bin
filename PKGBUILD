@@ -1,4 +1,4 @@
-# Maintainer: piratecarrot
+# Maintainer: pineappletoad
 
 pkgname=omniorb-bin
 pkgver=4.3.4
