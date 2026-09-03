@@ -1,0 +1,14 @@
+name: Sync omniorb
+
+on:
+  schedule:
+    - cron: '17 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    uses: tubbywrestler/aur-bin-chicken/.github/workflows/sync-and-build.yml@master
+    with:
+      aur_pkgbase: omniorb
+    permissions:
+      contents: write
