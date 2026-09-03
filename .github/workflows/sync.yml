@@ -12,3 +12,4 @@ jobs:
       aur_pkgbase: omniorb
     permissions:
       contents: write
+
